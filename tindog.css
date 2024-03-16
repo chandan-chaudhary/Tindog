@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navbar section */
+.navbar{
+    padding-bottom: 3rem;
+}
+.nav-item{
+    padding: 0 17px;
+}
+.navbar-brand{
+    font-family: 'Changa', sans-serif;
+    font-size: 3rem;
+    color: azure;
+}
+
+.nav-link{
+    color: azure;
+}
+
+/* combined selectors */
+#title{
+    background-color: #ff4c68;
+
+}
+
+/* title section */
+
+.heading-h1{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+div.container-fluid{
+    padding: 4% 9% 6%;
+}
+
+.download-btn{
+    margin: 3% 3% 0;
+}
+
+.title-image{
+    position:absolute;
+   right: 10rem; 
+    /*  top: 1.5rem; */
+    width:15rem;
+    transform: rotate(25deg);
+}
+
+#features{
+    position: relative;
+    margin: 0 5% 4%;
+    padding-top: 5%;
+    background-color: white;
+}
+
+.features{
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.features-h3{
+    font-family: 'Secular One', sans-serif;
+}
+
+.features-icons{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ff4c68;
+}
+
+.features-icons:hover{
+    color: #EA047E;
+}
+
+/* testimonials section */
+#testimonials{
+   text-align: center;
+   background-color: #FF5858;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* pablo css..... */
+.testimonials-img-pablo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+} 
+
+#press{
+   background-color: #FF5858;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logos{
+    width: 15%;
+   margin: 0 3%;
+}
+.testimonial-text{
+    font-family: 'Righteous', cursive;
+}
+
+#pricing{
+    padding: 5%;
+    text-align: center;
+}
+.cards-h3{
+    font-family: 'Righteous', cursive;
+}
+
+.pricing-h2{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.pricing-col{
+    padding: 3%;
+    text-align: center;
+}
+
+
+#cta{
+    text-align: center;
+    padding: 7% 0;
+}
+
+
+#footer{
+    padding: 5% 0 3%;
+    text-align: center;
+    font-size: 1rem;
+}
+.share-icon{
+   padding-left: 1%;
+}
+
+@media (max-width:996px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 6%;
+    }
+}
